@@ -13,11 +13,13 @@ const Cart = (props) => {
 
   const cartItemRemoveHandler = (id) => {
     // Some comments
+    // Some more comments
     cartCtx.removeItem(id);
   };
 
   const cartItemAddHandler = (item) => {
     // Some comments
+    // Some more comments
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
